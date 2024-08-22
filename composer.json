@@ -1,0 +1,19 @@
+{
+    "name": "php/frames",
+    "description": "Msomi Frameworks called frames",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Php\\Frames\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vicent Msomi",
+            "email": "msomivicent@gmail.com"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "require": {}
+}
