@@ -3,17 +3,49 @@
     "description": "Msomi Frameworks called frames",
     "type": "library",
     "license": "MIT",
+    "keywords": ["framework", "php", "frames"],
+    "readme": "",
+    "time": "",
+    "support": {
+        "issues": "https://github.com/xaverymsomi/framesPHPFramework/issues",
+        "source": "https://github.com/xaverymsomi/framesPHPFramework",
+        "wiki": "https://github.com/xaverymsomi/framesPHPFramework/wiki"
+    },
     "autoload": {
         "psr-4": {
-            "Php\\Frames\\": "src/"
+            "Libs\\": "libs/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Frames\\Tests\\": "tests"
         }
     },
     "authors": [
         {
             "name": "Vicent Msomi",
-            "email": "msomivicent@gmail.com"
+            "email": "msomivicent@gmail.com",
+            "role": "Main Developer"
         }
     ],
     "minimum-stability": "alpha",
-    "require": {}
+    "require": {
+        "php": "8.1.25| ^8.1",
+        "phpmailer/phpmailer": "5.2.*",
+        "twbs/bootstrap": "3.3.*",
+        "ext-pdo": "*",
+        "ext-mbstring": "*",
+        "ext-iconv": "*",
+        "ext-json": "*",
+        "ext-fileinfo": "*",
+        "ext-curl": "*",
+        "phpoffice/phpspreadsheet": "^1.16",
+        "mailgun/mailgun-php": "^3.5",
+        "kriswallsmith/buzz": "^1.2",
+        "nyholm/psr7": "^1.4",
+        "dompdf/dompdf": "^1.1",
+        "fpdf/fpdf": "^1.84",
+        "vlucas/phpdotenv": "^5.4",
+        "aferrandini/phpqrcode": "1.0.1"
+    }
 }
